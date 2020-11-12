@@ -1,0 +1,26 @@
+{
+  "name": "jsonTDD",
+  "version": "1.0.0",
+  "description": "Using TDD to create a simple JSON API which receives a query, fetches data and returns it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxwellBoecker/jsonTDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxwellBoecker/jsonTDD/issues"
+  },
+  "homepage": "https://github.com/MaxwellBoecker/jsonTDD#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1"
+  }
+}
