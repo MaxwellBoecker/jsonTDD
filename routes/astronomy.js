@@ -3,18 +3,8 @@ const axios = require('axios');
 const dotenv = require('dotenv');
 
 dotenv.config();
-const { HOST, KEY } = process.env;
 const astronomy = Router();
-
-const options = {
-  method: 'GET',
-  url: 'https://weatherapi-com.p.rapidapi.com/astronomy.json',
-  params: { q: 'London' },
-  headers: {
-    'x-rapidapi-key': KEY,
-    'x-rapidapi-host': HOST,
-  },
-};
+const { options } = require('./routeFunctions/astronomyFunctions');
 
 astronomy.get('/', (req, res) => {
   options.params.q = req.query.q;
@@ -23,7 +13,7 @@ astronomy.get('/', (req, res) => {
       res.status(200).send(resp.data);
     })
     .catch((err) => {
-      console.log(err);
+      res.status(500).send(err);
     });
 });
 
