@@ -1,0 +1,127 @@
+{
+  "location": {
+      "name": "Cleveland",
+      "region": "Ohio",
+      "country": "United States of America",
+      "lat": 41.5,
+      "lon": -81.7,
+      "tz_id": "America/New_York",
+      "localtime_epoch": 1605391031,
+      "localtime": "2020-11-14 16:57"
+  },
+  "currentWeather": {
+      "last_updated_epoch": 1605390308,
+      "last_updated": "2020-11-14 16:45",
+      "temp_c": 8.9,
+      "temp_f": 48,
+      "is_day": 1,
+      "condition": {
+          "text": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+          "code": 1000
+      },
+      "wind_mph": 6.9,
+      "wind_kph": 11.2,
+      "wind_degree": 130,
+      "wind_dir": "SE",
+      "pressure_mb": 1021,
+      "pressure_in": 30.6,
+      "precip_mm": 0,
+      "precip_in": 0,
+      "humidity": 39,
+      "cloud": 0,
+      "feelslike_c": 7.4,
+      "feelslike_f": 45.4,
+      "vis_km": 16,
+      "vis_miles": 9,
+      "uv": 3,
+      "gust_mph": 6.7,
+      "gust_kph": 10.8
+  },
+  "daily": [
+      {
+          "date": "2020-11-14",
+          "day": {
+              "maxtemp_c": 8.7,
+              "maxtemp_f": 47.7,
+              "mintemp_c": 3.1,
+              "mintemp_f": 37.6,
+              "avgtemp_c": 5.6,
+              "avgtemp_f": 42,
+              "maxwind_mph": 15.7,
+              "maxwind_kph": 25.2,
+              "totalprecip_mm": 0,
+              "totalprecip_in": 0,
+              "avgvis_km": 10,
+              "avgvis_miles": 6,
+              "avghumidity": 54,
+              "daily_will_it_rain": 0,
+              "daily_chance_of_rain": "0",
+              "daily_will_it_snow": 0,
+              "daily_chance_of_snow": "0",
+              "condition": {
+                  "text": "Partly cloudy",
+                  "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+                  "code": 1003
+              },
+              "uv": 2
+          }
+      },
+      {
+          "date": "2020-11-15",
+          "day": {
+              "maxtemp_c": 12.6,
+              "maxtemp_f": 54.7,
+              "mintemp_c": 6,
+              "mintemp_f": 42.8,
+              "avgtemp_c": 9.8,
+              "avgtemp_f": 49.7,
+              "maxwind_mph": 34.4,
+              "maxwind_kph": 55.4,
+              "totalprecip_mm": 4.2,
+              "totalprecip_in": 0.17,
+              "avgvis_km": 8.6,
+              "avgvis_miles": 5,
+              "avghumidity": 63,
+              "daily_will_it_rain": 1,
+              "daily_chance_of_rain": "93",
+              "daily_will_it_snow": 0,
+              "daily_chance_of_snow": "0",
+              "condition": {
+                  "text": "Patchy rain possible",
+                  "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+                  "code": 1063
+              },
+              "uv": 1
+          }
+      },
+      {
+          "date": "2020-11-16",
+          "day": {
+              "maxtemp_c": 7,
+              "maxtemp_f": 44.6,
+              "mintemp_c": 3.7,
+              "mintemp_f": 38.7,
+              "avgtemp_c": 5.3,
+              "avgtemp_f": 41.5,
+              "maxwind_mph": 27.1,
+              "maxwind_kph": 43.6,
+              "totalprecip_mm": 0.3,
+              "totalprecip_in": 0.01,
+              "avgvis_km": 8.4,
+              "avgvis_miles": 5,
+              "avghumidity": 60,
+              "daily_will_it_rain": 1,
+              "daily_chance_of_rain": "83",
+              "daily_will_it_snow": 0,
+              "daily_chance_of_snow": "0",
+              "condition": {
+                  "text": "Patchy rain possible",
+                  "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+                  "code": 1063
+              },
+              "uv": 2
+          }
+      }
+  ]
+}
